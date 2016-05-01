@@ -1,0 +1,23 @@
+
+.germVideo {
+    margin: auto;
+    width: 77%;
+    padding: 10px;
+}
+
+.imageLarger{
+  height: 600px;
+  width: 550px;
+
+}
+
+.whyMe{
+
+  margin: auto;
+  width: 42%;
+  padding: 10px;
+}
+
+.textRed{
+color: #ffe6e6;
+}

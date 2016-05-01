@@ -1,0 +1,27 @@
+.look{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.colorC{
+
+  color: blue;
+
+}
+
+.centerErryThang{
+  text-align:center;
+}
+
+.borderHere{
+  border: 1px solid black;
+  width: 25%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.numberFive{
+      background-color: lightblue;
+}
