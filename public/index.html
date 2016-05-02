@@ -1,124 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="public" content="main"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>Flüchtlingskrise</title>
+    <title>Joshua Platt</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <link href="otherStuff.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/business-casual.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/J.png" type="image/png">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="ie-emulation-modes-warning.js"></script>
-    <link rel="shortcut icon" href="germanflag.png" type="image/png">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500,400italic,400,300italic,300,700,500italic,700italic' rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
 </head>
+
 <body>
-  <div class="container-fluid">
-    <div class="row">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">Flüchtlingskrise</a href>
 
-                </div>
+    <div class="brand">Joshua Platt</div>
+    <div class="address-bar">3433 Michigan Ave. | East Lansing, MI 48912 | 586.876.6338</div>
 
-                <div class="collapse navbar-collapse" id="nav-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li><a href="dafur.html">Dafür</a href></li>
-                        <li><a href="dritten.html">Dritten Partei</a href></li>
-                        <li><a href="gegen.html">Dagegen</a href></li>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Business Casual</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-                    </ul>
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small>Welcome to</small>
+                    </h2>
+                    <h1 class="brand-name">Business Casual</h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>By
+                            <strong>Start Bootstrap</strong>
+                        </small>
+                    </h2>
                 </div>
             </div>
-        </nav>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Hey! My name is
+                        <strong>Joshua Platt</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/faceImage.png" alt="">
+                    <hr class="visible-xs">
+                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
+                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-</div>
+    <!-- /.container -->
 
-
-
-<!-- Marketing messaging and featurettes
-
-    ================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-
-<div class="container marketing">
-
-  <div class="whyMe"><h1>Was ist die Flüchtlingskrise?</h1></div>
-
-  <div class="germVideo">
-  <iframe width="854" height="480" src="https://www.youtube.com/embed/RvOnXh3NN9w" frameborder="0" allowfullscreen></iframe>
-  </div>
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="angela.png" alt="Generic placeholder image" height="140" width="155">
-            <h2>Dafür</h2>
-            <p>Viele Leute und politische Gruppe sind dafür die Flüchtlinge. In diese Seite sind die Gründe, warum viele Leute die Flüchtlinge mögen.  </p> <br><br>
-            <p><a class="btn btn-default" href="dafur.html" role="button">Go To &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img src="three.png" alt="Generic placeholder image" height="140" width="140">
-            <h2>Dritten Partei</h2>
-            <p>Andere Länder und Ausländer haben viele Meinungen über die Flüchtlingkrise. In diese Seite kann man viele Reaktionen über die Flüchtlingkrise sehen, die die Dritten haben. </p><br>
-            <p><a class="btn btn-default" href="dritten.html" role="button">Go To &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img src="pegida.png" alt="Generic placeholder image" height="140" width="140">
-            <h2>Gegen</h2>
-            <p>Wenn Menschen für etwas sind, gibt es Menschen gegen es. In diese Seite sind überall die Leute und Organisationen, die gegen die Flüchtlinge sind.</p><br><br>
-            <p><a class="btn btn-default" href="gegen.html" role="button">Go To &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-
-
-
-    <!-- FOOTER -->
     <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>Josh Platt</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
-</div><!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="bootstrap.min.js"></script>
-<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="ie10-viewport-bug-workaround.js"></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
 </body>
+
 </html>
