@@ -23,6 +23,7 @@ color: #ffe6e6;
 }
 
 
+
 body {
     font-family: 'Cabin', sans-serif;
     background: url('../img/background.png') no-repeat center center fixed;
@@ -96,6 +97,7 @@ hr {
 }
 
 .box {
+    border-radius: 15px;
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
